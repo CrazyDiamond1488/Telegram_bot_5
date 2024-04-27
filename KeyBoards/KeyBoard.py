@@ -4,10 +4,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 mains = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text = '/get_currencies'),
-            KeyboardButton(text = '/convert')
-        ],
-        [
             KeyboardButton(text = 'админ-панель')
         ]
     ],
@@ -21,10 +17,6 @@ mains_admin = ReplyKeyboardMarkup(
         [
             KeyboardButton(text = '/manage_currency'),
             KeyboardButton(text = 'Назад')
-        ],
-        [
-            KeyboardButton(text = '/get_currencies'),
-            KeyboardButton(text = '/convert')
         ]
     ],
     resize_keyboard=True,
